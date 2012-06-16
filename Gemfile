@@ -36,3 +36,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+# Added this to aid in deploying to heroku as suggested here https://devcenter.heroku.com/articles/bundler
+gem 'sinatra', '1.0'
