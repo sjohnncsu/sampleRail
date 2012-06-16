@@ -1,2 +1,9 @@
-This is a sample test repo. 
-I think the plan to create a sub directory within the repo for each project wasn't great, especially considering heroku deployment
+This is a sample rail applicatioon created to try
+  - creating a sample rails application on RubyMine
+  - using sqlite database
+  - sync and use with github as VCS
+  - use Rspec and capybara as testing framework
+  - deploy the app on heroku platform
+
+This was the first prototype to understand & connect the unknowns and see if it actually worked.
+Having this in place will give me hope & confidence to build the first rails project for csc517
