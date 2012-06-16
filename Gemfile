@@ -9,6 +9,10 @@ group :development do
   gem 'sqlite3', '1.3.6'
 end
 
+group :production do
+  # bundler requires these gems in heroku production
+  gem "pg"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
