@@ -1,7 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
+  name: MyStringOne
+
 
 two:
-  name: MyString
+  name: MyStringTwo
+
+<% 1.upto(1000) do |i| %>
+cat_<%= i %>:
+  name: myerb_<%= i %>
+<% end %>

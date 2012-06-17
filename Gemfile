@@ -11,7 +11,15 @@ end
 
 group :production do
   # bundler requires these gems in heroku production
-  gem "pg"
+  gem 'pg'
+end
+
+group :test do
+  # bundler requires these gems for testing
+  gem 'sqlite3', '1.3.6'
+  gem 'test-unit'
+  gem 'memory_test_fix'
+  gem 'capybara'
 end
 
 # Gems used only for assets and not required
